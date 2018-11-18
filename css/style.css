@@ -9,9 +9,9 @@ body {
 }
 #navbar {
     background-color: rgba(222, 121, 51, 0.9);
-    position: fixed;  
-    width: 100%; 
-    transition: 0.9s; 
+    position: fixed;
+    width: 100%;
+    transition: 0.9s;
 	text-align: center;
 }
 .dugme {
@@ -179,7 +179,7 @@ hr {
 
 .dropdown-content a:hover {background-color: #ddd}
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content{
     display: block;
 }
 
@@ -189,4 +189,14 @@ hr {
 #ico {
 	display: inline-block;
 	vertical-align: -23px;
+}
+
+.offset {
+	padding-top: 160px;
+}
+
+.main-content {
+	margin:auto;
+	max-width: 70%;
+	color: white;
 }

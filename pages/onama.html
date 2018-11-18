@@ -5,39 +5,42 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>О Школи</title>
-	<link rel="stylesheet" type="text/css" href="rsd.css">
-	<script type="text/javascript" src="./js/navbar_Timer.js"></script>
+	<!-- TODO: sredi css... rsd je samo ono sto se ondosi na deo o nama, ne menja se sve ponovo
+	 					 (kompletan css ti ne treba)
+	<link rel="stylesheet" type="text/css" href="/css/rsd.css"> -->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script type="text/javascript" src="../js/navbar_Timer.js"></script>
 </head>
 
 <body>
 	<div id="navbar">
-		<a class="link" href="index.html">Почетна</a>
-		<a>О Школи</a>
+		<a class="link" href="../index.html">Почетна</a>
+		<a class="link" href="onama.html">О Школи</a>
 		<div class="padajuci">
 			<button class="dugme">Настава</button>
 			<div class="sadrzaj">
-				<a href="#">Календар</a>
-				<a href="./pages/raspored.html">Распоред Звоњења</a>
-				<a href="./pages/rpr.html">Професори</a>
-				<a href="#">Списак Уџбеника</a>
+				<a href="../files/kalendar_2018_19.docx">Календар</a>
+				<a href="raspored.html">Распоред Звоњења</a>
+				<a href="rpr.html">Професори</a>
+				<a href="../files/files.zip" download="Списак уџбеника школске 2018/19 год.">Списак Уџбеника</a>
 				<div class="dropdown">
 					<a class="dropbtn">Смерови</a>
 					<div class="dropdown-content">
-						<a href="#">Природни смер</a>
-						<a href="#">Друштвени смер</a>
+						<a href="prirodnismer.html">Природни смер</a>
+						<a href="drustvenismer.html">Друштвени смер</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="ico">
-		<img src="./img/ico.png">
+		<img src="../img/ico.png">
 		</div>
 		<div class="padajuci">
 			<button class="dugme">Ученици</button>
 			<div class="sadrzaj">
-				<a href="#">Такмичења</a>
-				<a href="#">Награде</a>
-				<a href="#">Ђачки Парламент</a>
+				<a href="takmicenja.html">Такмичења</a>
+				<a href="nagrade.html">Награде</a>
+				<a href="parlament.html">Ђачки Парламент</a>
 				<div class="dropdown">
 					<a class="dropbtn">Секције</a>
 					<div class="dropdown-content">
@@ -52,39 +55,36 @@
 			<div class="sadrzaj">
 				<a href="#">Јавне Набавке</a>
 				<a href="#">Међународна сарадња</a>
-				<a href="./files/otvorenaVrata2017.doc" download="Raspored prijema roditelja 2017">Распоред пријема родитеља</a>
+				<a href="../files/otvorenaVrata2018.doc" download="Raspored prijema roditelja 2017">Распоред пријема родитеља</a>
 				<a href="#">Архива</a>
 			</div>
 		</div>
 		<a class="link" href="">Пројекти</a>
 	</div>
 	<div class="main">
-	<br><br><br><br><br><br>
-	<h1>ИСТОРИЈАТ  ГИМНАЗИЈЕ „ УРОШ  ПРЕДИЋ“ У  ПАНЧЕВУ</h1>
-	<hr>
-	<br><br>
+	<div class="offset main-content">
 	<section class="prvideolevo">
 	<p class="prvideolevop"><b>Гимназија „Урош Предић“ у Панчеву је школа са дугом традицијом. 2013. године обележили смо 150-годишњицу њеног постојања.</b></p>
     <br><br>
 	<p class="prvideolevop">Идеју о оснивању српске гимназије у Панчеву покренуло је српско грађанство тридесетих година 19. века. Двојица Панчеваца завештала су део имовине у културне сврхе. Великодушним гестом берберина и житарског трговца Томе Сандуловића 1835. године почиње стварање фонда за оснивање гимназије. Годину дана касније житарски трговац Игњат Барајевац завештао је имање које се састојало од велике зграде, гостионице „Код звезде“, за оснивање ђачког интерната. Али, и поред ових легата, средстава нису била довољна, а власти нису биле вољне да финансијски помогну, те се оснивање гимназије одлаже.</p>
 	</section>
 	<section class="prvideodesno">
-	<img class="slika1" src="skola1.jpg" height="350px" width="525px" alt="Gimnazija,19.vek" >
+	<img class="slika1" src="../img/skola1.jpg" height="350px" width="525px" alt="Gimnazija,19.vek" > <!-- TODO: izdvoji ovo u poseban css!-->
 	<br><br>
 	<p class="prvideodesnop"><strong>Наредбом Дворског ратног савета у Бечу 1851. године отворена је Царско-краљевска нижа реалка, да би се 1863. године претворила у Царско-краљевску вишу реалку. Ову годину узимамо за годину оснивања Гимназије. У то време ђак ове немачке реалке током две школске године био је Лаза Костић, највећи поета српског романтизма.</strong></p>
 	</section>
 	</div>
 	<div class="maindva">
 	<section class="drugideo">
-	<p class="drugideop">Школа је више пута мењала име, а од 1958. године до данас носи име великог српског сликара <i>Уроша Предића</i>. Мењала се и зграда школе: прво је била смештена у кући Карла Вајферта (угао Улица Ђуре Јакшића и Николе Ђурковића), потом у данашњој Његошевој улици бр.8, а онда на месту војног магацина. Изградња нове, тј. данашње зграде, завршена је 1888.г. Зграда је једноспратна у класицистичком стилу, има главну фасаду и два истурена бочна крила. У дворишту је фискултурна сала. <br><br>Свечано отварање почело је мисом у суседној римокатоличкој цркви миноритског манастира. 
-     На левој страни степеништа зазидана је гранитна плоча са натписом „Завршни камен темељац 
+	<p class="drugideop">Школа је више пута мењала име, а од 1958. године до данас носи име великог српског сликара <i>Уроша Предића</i>. Мењала се и зграда школе: прво је била смештена у кући Карла Вајферта (угао Улица Ђуре Јакшића и Николе Ђурковића), потом у данашњој Његошевој улици бр.8, а онда на месту војног магацина. Изградња нове, тј. данашње зграде, завршена је 1888.г. Зграда је једноспратна у класицистичком стилу, има главну фасаду и два истурена бочна крила. У дворишту је фискултурна сала. <br><br>Свечано отварање почело је мисом у суседној римокатоличкој цркви миноритског манастира.
+     На левој страни степеништа зазидана је гранитна плоча са натписом „Завршни камен темељац
      19. новембра 1888. године“ иза које је у шупљини смештена споменица. <br><br>Била је у то време једна од најбоље опремљених школа у Војводини и најугледнијих у Аустро-Угарској, јер су у њој предавали бечки професори. На Париској изложби 1867. године њени ученици и професори добили су похвалу и награду за своје радове.
 	 Основни задатак Гимназије био је да пружи опште образовање и добро познавање класичних језика и историје књижевности, како би припремила ђаке за студије на универзитету. Све до слома Аустро-Угарске монархије, била је то школа за имућније слојеве друштва.
      <br><br>Ученик панчевачке реалке био је <i>Михаило Пупин (1870-1872)</i>. Морао је да напусти школу, да не би био избачен, због учешћа на бакљади у част доласка Светозара Милетића у Панчево.
      Велики сликар <i>Урош Предић</i> завршио је свих седам разреда Гимназије, одакле је отишао у Беч на Уметничку академију 1876. године.</p>
 	</section><br><br><br>
 	<section class="trecideo">
-	<img class="slika2" src="slika2.jpg">
+	<img class="slika2" src="../img/slika2.jpg">
 	</section>
 	<p id="sat"></p>
 	</div>
@@ -105,26 +105,27 @@
 	</div>
 	<div class="galerija">
 	<section class="petideo">
-	  <img src="predic.jpg" height="300px" width="200px">
+	  <img src="../img/predic.jpg" height="300px" width="200px">
 	  <br><p class="rodjeni">Урош Предић</p>
 	</section>
     <section class="petideo">
-	  <img src="vasa.jpeg" height="300px" width="200px">
+	  <img src="../img/vasa.jpeg" height="300px" width="200px">
 	  <br><p class="rodjeni">Васа Живковић</p>
 	</section>
 	<section class="petideo">
-	  <img src="glogovac.jpg" height="300px" width="200px">
+	  <img src="../img/glogovac.jpg" height="300px" width="200px">
 	  <br><p class="rodjeni">Небојша Глоговац</p>
 	</section>
 	<section class="petideo">
-	  <img src="pupin.jpg" height="300px" width="200px">
+	  <img src="../img/pupin.jpg" height="300px" width="200px">
 	  <br><p class="rodjeni">Михаило Пупин</p>
 	</section>
 	<section class="petideo">
-	  <img src="crnjanski.jpg" height="300px" width="200px">
+	  <img src="../img/crnjanski.jpg" height="300px" width="200px">
 	  <br><p class="rodjeni">Милош Црњански</p>
 	</section>
 	</div>
+</div>
 	<div class="donji">
 	<ul>
 	<li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"/></svg></a></li>

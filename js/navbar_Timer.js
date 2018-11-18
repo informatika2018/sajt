@@ -8,7 +8,7 @@ window.onscroll = function() {
   }
   prethodniPolozaj = sadasnjiPolozaj;
 }
-
+/*
 var odbrojavanje = new Date("Jan 1, 2019 00:00:00").getTime();
 var x = setInterval(function() {
 	var sad = new Date().getTime();
@@ -25,4 +25,4 @@ var x = setInterval(function() {
 		clearInterval(x);
 		document.getElementById("sat").innerHTML = "ODBROJAVANJE ZAVRSENO";
 	}
-});
+}); */
