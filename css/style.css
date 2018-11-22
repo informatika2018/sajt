@@ -6,6 +6,8 @@ html  {
 }
 body {
 	margin:0;
+	background-image: url('../img/bb.jpg');
+	padding: 0;
 }
 #navbar {
     background-color: rgba(222, 121, 51, 0.9);
@@ -58,7 +60,7 @@ body {
 .main {
 	font-family: Arial;
 	height: 958px;
-	background-image: url('../img/bb.jpg');
+	overflow: auto;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -114,6 +116,9 @@ clear: both;
 text-align: center;
 color: #66483A;
 padding: 25px;
+bottom: 1px;
+width: 100%;
+z-index: 30000;
 }
 
 .donji ul {
@@ -167,6 +172,7 @@ hr {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+	border-top: 1px solid grey;
 }
 
 .dropdown-content a {
