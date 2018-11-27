@@ -59,7 +59,7 @@ body {
 }
 .main {
 	font-family: Arial;
-	height: 958px;
+	height: 1080px;
 	overflow: auto;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -111,14 +111,14 @@ body {
 }
 .donji {
 background-color: #A4BEF3;
-height: 125px;
+height: 101px;
 clear: both;
 text-align: center;
 color: #66483A;
 padding: 25px;
-bottom: 1px;
 width: 100%;
 z-index: 30000;
+position: absolute;
 }
 
 .donji ul {
