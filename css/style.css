@@ -7,11 +7,15 @@ html  {
 body {
 	margin:0;
 	background-image: url('../img/bb.jpg');
+	background-repeat: no-repeat;
+	background-position: right top;
+  background-attachment: fixed;
 	padding: 0;
 }
 #navbar {
     background-color: rgba(222, 121, 51, 0.9);
     position: fixed;
+		z-index: 10000;
     width: 100%;
     transition: 0.9s;
 	text-align: center;
@@ -59,20 +63,22 @@ body {
 }
 .main {
 	font-family: Arial;
-	height: 1080px;
-	overflow: auto;
+	min-height: calc(100vh - 101px); /*1vh = 1 % of viewport height; 101px = height of .donji */
+	overflow: hidden;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-bottom: 110px;
+	font-size: 1.1em;
 }
 .main h1 {
-	font-size: 70px;
+	/*font-size: 70px;*/
 	text-align: center;
 	margin: 25px;
 	color: white;
 }
 .main p {
-	font-size: 50px;
-	text-align: center;
+	/*font-size: 50px;*/
+	text-align: justify;
 	margin: 5px;
 	color: white;
 }
@@ -118,7 +124,8 @@ color: #66483A;
 padding: 25px;
 width: 100%;
 z-index: 30000;
-position: absolute;
+/*position: fixed;
+bottom: 0;*/
 }
 
 .donji ul {
@@ -197,12 +204,16 @@ hr {
 	vertical-align: -23px;
 }
 
-.offset {
-	padding-top: 160px;
-}
-
 .main-content {
 	margin:auto;
-	max-width: 70%;
+	max-width: 1000px;
+	min-width: 70%;
 	color: white;
+	padding: 12px;
+	text-align: justify;
+	text-size: 1em;
+}
+
+.offset {
+	margin-top: 150px;
 }

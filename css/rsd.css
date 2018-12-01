@@ -1,5 +1,5 @@
 
-.maindva {
+/*.maindva {
 	font-family: Arial;
 	height: 1200px;
  	background-image: url('../img/bb.jpg');
@@ -22,65 +22,65 @@
 	display:inline-block;
  }
  .main h1 {
- 	font-size: 70px;
- 	text-align: center;
- 	margin: 25px;
+ 	/*font-size: 70px;*/
+ 	/*text-align: center;*/
+ 	/*margin: 25px;
  	color: white;
  }
  .main p {
- 	font-size: 50px;
- 	text-align: left;
- 	margin: 5px;
+ 	/*font-size: 50px;*/
+ 	/*text-align: left;*/
+ 	/*margin: 5px;
  	color: white;
  }
   .maindva h1 {
- 	font-size: 5px;
- 	text-align: center;
- 	margin: 25px;
+ 	/*font-size: 5px;*/
+ 	/*text-align: center;*/
+ /*	margin: 25px;
  	color: white;
  }
  .maindva p {
- 	font-size: 50px;
- 	text-align: center;
- 	margin: 2px;
+ 	/*font-size: 50px;*/
+ 	/*text-align: center;*/
+ /*	margin: 2px;
 	margin-right:20px;
  	color: white;
  }
    .maintri h1 {
- 	font-size: 70px;
- 	text-align: left;
- 	margin: 25px;
+ 	/*font-size: 70px;*/
+ 	/*text-align: left;*/
+ 	/*margin: 25px;
  	color: white;
  }
  .maintri p {
- 	font-size: 50px;
- 	text-align:left;
- 	margin: 5px;
+ 	/*font-size: 50px;*/
+ 	/*text-align:left;*/
+ 	/*margin: 5px;
  	color: white;
  }
  .prvideolevo{
-	 
+
     width:50%;
-	float:left;
-	text-align:left;
-	margin-left:20px;
+	/*float:left;
+	text-align:left;*/
+	/*margin-left:20px;
 	position:relative;
  }
- 
+
  p.prvideolevop{
-    font-size:20px;
- }
- 
+    /*font-size:20px;*/
+ /*}
+
  .prvideodesno{
-	 
+
     width:45%;
-	float:right;
-	margin-right:20px;
-	position:relative;
+	/*float:right;
+	margin-right:20px;*/
+	/*position:relative;
 }
 p.prvideodesnop{
-    font-size:15px;
-	line-height:20px;
+    /*font-size:15px;*/
+	/*line-height:20px;
 }
  .slika1{
 	 border-radius:43px;
@@ -90,8 +90,8 @@ p.prvideodesnop{
 	 margin-left:20px;
  }
  p.drugideop{
-    font-size:20px; 
-	padding-right:20px;
+    /*font-size:20px;*/
+	/*padding-right:20px;
  }
   .slika2{
      width:100%;
@@ -106,28 +106,84 @@ p.prvideodesnop{
  }
   .cetvrtideolevo{
 	 width:45%;
-	 float:left;
-	 margin-left:20px;
+	 /*float:left;*/
+	 /*margin-left:20px;
 	 margin-right:20px;
  }
   p.cetvrtideolevop{
-    font-size:20px; 
- }
+    /*font-size:20px;*/
+ /*}
    .cetvrtideodesno{
 	 width:45%;
-	 float:right;
-	 margin-left:20px;
+	 /*float:right;*/
+	 /*margin-left:20px;
 	 margin-right:20px;
  }
   p.cetvrtideodesnop{
-    font-size:20px;
-	text-align:left;
-  }
+    /*font-size:20px;*/
+	/*text-align:left;*/
+  /*}
   .petideo{
 	  width:auto;
 	  padding:60px;
-	  float:right;
-  }
+	  /*float:right;*/
+  /*}
 p.rodjeni{
 	color:white;
+}*/
+
+.img {
+	height: 300px;
+	width: 300px;
+	/*border-radius: 50%;*/
+}
+
+.textimg {
+	height: auto;
+	width: 50%;
+	border: 0;
+	margin: auto;
+	text-align: center;
+	display: block;
+}
+
+p {
+	text-align: justify;
+	line-height: 1.7em;
+}
+
+.imgcontainer {
+	position: relative;
+  text-align: center;
+  color: white;
+	display: inline-block;
+}
+
+.imgcontainer img {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+}
+
+.imgtextcentered {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+	display: none;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.imgcontainer:hover {
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 50%;
+}
+
+.imgcontainer:hover img {
+	opacity: 0.5;
+}
+
+.imgcontainer:hover .imgtextcentered{
+	display: inline-block;
 }

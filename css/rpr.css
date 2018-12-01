@@ -1,12 +1,12 @@
-* {
+/* * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-body 
+body
 {
 	background-image: url("hgh.jpg");
-	
+
     background-repeat:no-repeat;
 
     background-size:cover;
@@ -17,9 +17,9 @@ body
 	height: auto;
 	margin: 0 auto;
 	background-color:#fffce4;
-	
+
 }
-.Header 
+.Header
 {
 	background-color:#fffce4;
 	border-bottom: 4px solid #ffbb00;
@@ -27,7 +27,7 @@ body
 .center img.logo
 {
 	display:inline-block;
-	border-radius: 150%;	
+	border-radius: 150%;
 	padding:0;
 	width: 600px;
 	margin: auto 0;
@@ -55,7 +55,7 @@ body
     padding: 0;
     overflow: hidden;
     background-color: white;
-	
+
 
 }
 
@@ -77,7 +77,7 @@ body
 	border-right: 2px solid #ffbb00;
 	margin:0;
 
-	
+
 }
 .nav li.upis a
 {
@@ -109,7 +109,7 @@ body
 
 .dropdown-content a:hover {background-color: #f1f1f1}
 
- 
+
 .dropdown:hover .dropdown-content{
     display: block;
 }
@@ -120,7 +120,7 @@ body
 .dropdown2:hover .dropdown-content2{
     display: block;
 
-}
+}*/
 /*Dovde radi*/
 /*CSS za RPR searchbar ovde počinje*/
 .tg_searchbar {
@@ -168,7 +168,7 @@ body
   margin-top: 10px;
   margin-right: 16px;
   background: #999;
-  font-size: 17px; 
+  font-size: 17px;
   border: none;
   cursor: pointer;
 }
@@ -186,22 +186,22 @@ body
 
 
 .tg_prof_subj #phy   {
-background-color: #cc7a00;	
+background-color: #cc7a00;
 
 }
 .tg_prof_subj #bio   {
-background-color: #cc7a00;	
+background-color: #cc7a00;
 }
 .tg_prof_subj #ser   {
-background-color: #cc7a00;	
+background-color: #cc7a00;
 }
 .tg_prof_subj #inf  {
-background-color: #cc7a00;	
+background-color: #cc7a00;
 }
 
 
 .tg_prof_name{
-	
+
 	font-size: 0.76em;
 	font-weight:bold;
 	padding:10px;
@@ -231,7 +231,7 @@ background-color: #cc7a00;
 	padding-right: 3px;
 	padding-bottom: 1px;
 }
-.tg_searchbar 
+.tg_searchbar
 {
 	margin-top:40px;
 	border-radius: 25px 25px 0 0;
@@ -240,9 +240,9 @@ background-color: #cc7a00;
 .tg_prof_subj h1{
 display:none;
 }
-.tg_prof_profile 
+.tg_prof_profile
 {
-	
+
 	color: #ccc;
 	font-size: 0.8em;
 	margin-left:65px;
@@ -268,8 +268,8 @@ display:none;
 	font-family:sans serif;
 	font-weight:bold;
 	color: #ccc;
-	letter-spacing: 5px; 
-	word-spacing: 10px; 
+	letter-spacing: 5px;
+	word-spacing: 10px;
 	text-align:center;
 }
 
@@ -277,7 +277,7 @@ display:none;
   	color:#ccc;
 	text-align:center;
     display: block;
-    
+
 }
 .stuff{
     display:block;
@@ -288,4 +288,3 @@ display:none;
     display:block;
     margin-top: 20%;
 }
-
