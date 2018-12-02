@@ -104,7 +104,7 @@ body
     text-decoration: none;
     display: block;
     text-align: left;
-	font-size: 1em /* Verovatno vise pristoji 0.6-1.0*/
+	font-size: 1em /* Verovatno vise pristoji 0.6-1.0*//*
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}

@@ -6,11 +6,18 @@ html  {
 }
 body {
 	margin:0;
-	background-image: url('../img/bb.jpg');
+	background-image: url('../img/bbgray.jpg');
 	background-repeat: no-repeat;
 	background-position: right top;
   background-attachment: fixed;
+	background-size: cover;
 	padding: 0;
+
+	/*
+    background-image: url("../img/bb.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
 }
 #navbar {
     background-color: rgba(222, 121, 51, 0.9);
@@ -214,6 +221,50 @@ hr {
 	text-size: 1em;
 }
 
+.main-content p {
+	text-align: justify;
+	line-height: 1.7em;
+}
+
+.main-content a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.main-content a:hover {
+	color: lightgray;
+}
+
 .offset {
 	margin-top: 150px;
+}
+
+.vset {
+	width: 100%;
+}
+
+.vest img {
+	max-height: 400px;
+	width: auto;
+	margin: auto;
+	border: 0;
+	display: block;
+	padding: 10px;
+}
+
+.vestheader {
+	width: 100%;
+}
+.vestbody {
+	width: 100%
+}
+.vestfooter {
+	width: 100%;
+}
+.vestfooter p {
+	text-align: right;
+	text-align: right;
+	font-weight: bold;
+	font-style: italic;
 }

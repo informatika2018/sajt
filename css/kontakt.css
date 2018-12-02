@@ -1,0 +1,14 @@
+#mapcontainer {
+  min-height: 400px;
+  max-height: 600px;
+  max-width: 80%
+  margin: 10px auto;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  background-color: lightgray;
+  background-image: url("../img/kontakt.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
