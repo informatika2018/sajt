@@ -268,3 +268,16 @@ hr {
 	font-weight: bold;
 	font-style: italic;
 }
+
+.gimzeleniimg {
+	max-height: 333px;
+	width: auto;
+	margin: 10px;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+.gimzeleniimg:hover {
+	margin: 8px;
+	border: 2px solid lightgray;
+}
